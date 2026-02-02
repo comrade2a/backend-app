@@ -18,5 +18,5 @@ jobs:
 
     - name: Push image
       run: 
-          docker login -u comrade2a -p "${{ secrets.DOCKER_SECRETE-KEY }}"
+          docker login -u comrade2a -p "${{ secrets.DOCKER_SECRETE_KEY }}"
           docker push comrade2a/backend-app:latest
